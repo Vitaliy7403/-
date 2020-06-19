@@ -1,0 +1,91 @@
+*{
+    box-sizing:border-box;
+    ;
+}
+body{
+    margin:0;
+    background-image:url(../image/ж.png);
+    height: 800px;
+    background-repeat: no-repeat;
+   color:white;
+    
+}
+.main{
+width: 320px;
+height: 620px;
+margin:120px auto 0;
+
+border:10px solid silver;
+font-size:0;
+}
+
+#game{
+   padding-top: 50px;
+   font-size: 40px;
+width: 320px;
+margin: auto;
+}
+.cell{
+    width: 30px;
+    height: 30px;
+    border:1px solid silver;
+    display: inline-block;
+   
+}
+.movingCell{
+    background-color: blue;
+}
+.fixedCell{
+background-color:red;
+}
+#next-tetro{
+    position: absolute;
+    
+    top: 200px;
+    left: 200px;
+    font-size:0;
+}
+.menu{
+   
+width: 400px;
+height: 1000px;
+position: absolute;
+
+top:100px;
+
+
+}
+#start{
+    font-family: 'Piedra', cursive;
+    
+    width: 160px;
+    
+    
+}
+#pause{
+    font-family: 'Piedra', cursive;
+width: 160px;
+
+}
+.level-score{
+    
+    font-family: 'Piedra', cursive;
+ width: 200px;
+ position: absolute;
+ top: 10px;
+ 
+  text-shadow: blue 2px 0px 2px;
+ 
+}
+#game-over{
+    font-size: 250px;
+    color:blanchedalmond;
+    background-image: url(../image/orig.gif);
+    text-align: center;
+    display: none;
+    position: absolute;;
+    top: 50%;
+    
+    left:50%;
+    transform: translate(-50%,-50%);
+}
